@@ -1,0 +1,33 @@
+{
+  "name": "weatherapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@capacitor/android": "^3.5.0",
+    "@capacitor/core": "^3.4.3",
+    "axios": "^0.25.0",
+    "core-js": "^3.8.3",
+    "firebase": "^7.16.1",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.12.16",
+    "@capacitor/cli": "^3.4.3",
+    "@vue/cli-plugin-babel": "~5.0.0-rc.2",
+    "@vue/cli-plugin-eslint": "~5.0.0-rc.2",
+    "@vue/cli-plugin-router": "~5.0.0-rc.2",
+    "@vue/cli-service": "~5.0.0-rc.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0"
+  }
+}
